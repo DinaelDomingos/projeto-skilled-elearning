@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+
+    .principal {
+        display: flex;
+        position: relative;
+        margin-bottom: 235px;
+    }
+
+    .principal header {
+        width: 398px;
+    }
+
+    .principal picture {
+        position: absolute;
+        top: -225px;
+        left: 332px;
+    }
+
+    .principal img {
+        width: 695px;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card h2 {
+        width: 340px;
+        padding-top: 56px;
+        padding-left: 32px;        
+    }
+
+    .card article {
+        width: 340px;
+    }
+
+    footer {
+        padding: 36px 40px;
+    }
+
+}

@@ -1,0 +1,90 @@
+@media screen and (min-width: 1440px) {
+    .logo {
+        width: 78vw;
+    }
+
+    .logo img {
+        width: 114px;
+    }
+
+    .logo button{
+        padding: 14px 32px;
+    }
+
+    .logo button>a {
+        font-size: 1.15rem;
+    }
+
+    main {
+        width: 78vw;
+    }
+
+    .principal header {
+        width: 475px;
+    }
+
+    .principal picture {
+        position: absolute;
+        top: -370px;
+        left: 600px;
+    }
+
+    .principal img {
+        width: 1046px;
+    }
+
+    .principal h1 {
+        font-size: 3.5rem;
+    }
+
+    .principal p {
+        font-size: 1.15rem;
+        font-weight: 400;
+        color: var(--gray);
+        margin: 29px auto 40px;
+    }
+
+    .principal button {
+        padding: 18px 32px;
+    }
+
+    .principal button a {
+        font-size: 1.15rem;
+    }
+
+    .card {
+        gap: 30px;
+    }
+
+    .card h2{
+        width: 350px;
+        padding-top: 64px;
+        font-size: 2rem;
+    }
+
+    .card h3 {
+        color: var(--darkBlue);
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-left: 32px;
+        padding-top: 56px;
+    }
+
+    .card p {
+        font-size: 1.15rem;
+        padding: 24px 32px;
+    }
+    .card a {
+        padding-left: 32px;
+        padding-bottom: 40px;
+    }
+
+    .card article {
+        width: 350px;
+    }
+
+    footer {
+        padding: 32px 165px;
+    }
+
+}
