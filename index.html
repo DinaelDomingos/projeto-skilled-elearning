@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="Landing page de cursos online modernos para desenvolver habilidades em animação, design, fotografia, criptomoedas e negócios. Maximize seu aprendizado com orçamento acessível.">
+  <meta name="keywords" content="cursos online, e-learning, animação, design, fotografia, criptomoedas, negócios, aprendizado, educação, habilidades, Frontend Mentor">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/imagens/favicon-32x32.png">
   <!-- <link rel="stylesheet" href="style.css"> -->
   <!-- <link rel="stylesheet" href="style-mobile.css"> -->
@@ -13,81 +14,83 @@
 </head>
 <body>
 
-  <header class="logo">
-    <img src="assets/imagens/logo-dark.svg" alt="Logo ">
-    <button><a href="#">Get Started</a></button>
-  </header>
-
-  <main>
-    <section class="principal">
-      <header>
-        <h1>Maximize skill, minimize budget</h1>
-        <p>
-          Our modern courses across a range of in-demand skills will give you the
-          knowledge you need to live the life you want.
-        </p>
-        <button><a href="#">Get Started</a></button>
-      </header>
-      <picture>
-        <source media="(min-width: 1440px)" srcset="assets/imagens/image-hero-desktop.webp" type="image/webp">
-        <source media="(min-width: 768px)" srcset="assets/imagens/image-hero-tablet.webp" type="image/webp">
-        <img src="assets/imagens/image-hero-mobile.webp" alt="Foto de garota com informação de numero de membros e horas de curso">
-      </picture>
-    </section>
-    <section class="card">
-      <h2>Check out our most popular courses!</h2>
-      <article>
-        <img src="assets/imagens/icon-animation.svg" alt="">
-        <h3>Animation</h3>
-        <p>
-          Learn the latest animation techniques to create stunning motion
-          design and captivate your audience.
-        </p>
-        <a href="#">Get Started</a>
-      </article>
-      <article>
-        <img src="assets/imagens/icon-design.svg" alt="">
-        <h3>Design</h3>
-        <p>
-          Create beautiful, usable interfaces to help shape the future of
-          how the web looks.
-        </p>
-        <a href="#">Get Started</a>
-      </article>
-      <article>
-        <img src="assets/imagens/icon-photography.svg" alt="">
-        <h3>Photography</h3>
-        <p>
-          Explore critical fundamentals like lighting, composition, and focus
-          to capture exceptional photos
-        </p>.
-        <a href="#">Get Started</a>
-      </article>
-      <article>
-        <img src="assets/imagens/icon-crypto.svg" alt="">
-        <h3>Crypto</h3>
-        <p>
-          All you need to know to get started investing in crypto. Go from beginner
-          to advanced with this 54 hour course.
-        </p>
-        <a href="#">Get Started</a>
-      </article>
-      <article>
-        <img src="assets/imagens/icon-business.svg" alt="">
-        <h3>Business</h3>
-        <p>
-          A step-by-step playbook to help you start, scale, and sustain your business
-          without outside investment.
-        </p>
-        <a href="#">Get Started</a>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <img src="assets/imagens/logo-light.svg" alt="">
-    <button><a href="#">Get Started</a></button>
-  </footer>
+  <div class="container">
+    <header class="cabecalho">
+      <img src="assets/imagens/logo-dark.svg" alt="Logo do site" class="logo-header">
+      <a href="#" class="btn btn-header" aria-label="Comece agora pelo cabeçalho">Get Started</a>
+    </header>
+    <main>
+      <section class="principal">
+        <header class="principal-header">
+          <h1 class="titulo-principal">Maximize skill, minimize budget</h1>
+          <p class="descricao-principal">
+            Our modern courses across a range of in-demand skills will give you the
+            knowledge you need to live the life you want.
+          </p>
+          <a href="#" class="btn btn-main" aria-label="Comece agora pela seção principal">Get Started</a>
+        </header>
+        <picture class="imagem-hero">
+          <source media="(min-width: 1440px)" srcset="assets/imagens/image-hero-desktop.webp" type="image/webp">
+          <source media="(min-width: 768px)" srcset="assets/imagens/image-hero-tablet.webp" type="image/webp">
+          <img src="assets/imagens/image-hero-mobile.webp" alt="Foto de garota com informação de numero de membros e horas de curso" class="img-hero">
+        </picture>
+      </section>
+      <section class="card">
+        <h2 class="titulo-card">Check out our most popular courses!</h2>
+        <div class="cursos">
+          <article class="curso">
+            <img src="assets/imagens/icon-animation.svg" alt="Ícone representando curso de animação" class="icon-curso" loading="lazy">
+            <h3 class="titulo-curso">Animation</h3>
+            <p class="descricao-curso">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="#" class="btn btn-curso" aria-label="Iniciar curso de animação">Get Started</a>
+          </article>
+          <article class="curso">
+            <img src="assets/imagens/icon-design.svg" alt="Ícone representando curso de design" class="icon-curso" loading="lazy">
+            <h3 class="titulo-curso">Design</h3>
+            <p class="descricao-curso">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <a href="#" class="btn btn-curso" aria-label="Iniciar curso de design">Get Started</a>
+          </article>
+          <article class="curso">
+            <img src="assets/imagens/icon-photography.svg" alt="Ícone representando curso de fotografia" class="icon-curso" loading="lazy">
+            <h3 class="titulo-curso">Photography</h3>
+            <p class="descricao-curso">
+              Explore critical fundamentals like lighting, composition, and focus
+              to capture exceptional photos.
+            </p>
+            <a href="#" class="btn btn-curso" aria-label="Iniciar curso de fotografia">Get Started</a>
+          </article>
+          <article class="curso">
+            <img src="assets/imagens/icon-crypto.svg" alt="Ícone representando curso de criptomoedas" class="icon-curso" loading="lazy">
+            <h3 class="titulo-curso">Crypto</h3>
+            <p class="descricao-curso">
+              All you need to know to get started investing in crypto. Go from beginner
+              to advanced with this 54 hour course.
+            </p>
+            <a href="#" class="btn btn-curso" aria-label="Iniciar curso de criptomoedas">Get Started</a>
+          </article>
+          <article class="curso">
+            <img src="assets/imagens/icon-business.svg" alt="Ícone representando curso de negócios" class="icon-curso" loading="lazy">
+            <h3 class="titulo-curso">Business</h3>
+            <p class="descricao-curso">
+              A step-by-step playbook to help you start, scale, and sustain your business
+              without outside investment.
+            </p>
+            <a href="#" class="btn btn-curso" aria-label="Iniciar curso de negócios">Get Started</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <img src="assets/imagens/logo-light.svg" alt="Logo do site" class="logo-footer">
+      <a href="#" class="btn btn-footer" aria-label="Comece agora pelo rodapé">Get Started</a>
+    </footer>
+  </div>
 
 </body>
 </html>
