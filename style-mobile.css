@@ -9,8 +9,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4.25% 4.25%;
-    width: 90%;
+    width: 91.5%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2.375rem;
 }
 
 .logo-header {
@@ -33,48 +35,54 @@
     background-color: var(--lightPurple);
 }
 
-/* main {
+main {
+    width: 91.5%;
+    margin: auto;
+}
+
+.principal {
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    margin: auto;
-} */
+}
 
-/* .principal {
-    margin-top: 22px;
-} */
-
-/* .principal h1 {
+.principal h1 {    
     font-size: 2.5rem;
     font-weight: 800;
     color: var(--darkBlue);
-} */
+    line-height: normal;
+}
 
-/* .principal p {
+.principal p {
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.625rem;
     color: var(--gray);
-    margin: 26px auto 24px;
-} */
+    margin: 1.625rem 0 1.5rem 0;
+}
 
-/* .principal button {
+.btn-main {
+    display: inline-block;    
     padding: 15px 38px;
     background-image: var(--gradiente1);
     border-radius: 28px;
-    border: 0;
-} */
-
-/* .principal button:hover {
-    background-image: var(--gradiente1-hover);
-} */
-
-/* .principal button a {
+    border: 0;    
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
-} */
+}
 
+.btn-main:hover {
+    background-image: var(--gradiente1-hover);
+}
+
+.imagem-hero {
+    margin-top: 2rem;
+}
+
+.principal img {
+    width: 100%;
+}
 /* .principal img {
     width: 343px;
 } */
