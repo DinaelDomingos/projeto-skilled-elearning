@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Plus-Jakarta-Sans';
+    font-family: 'Plus-Jakarta';
     src: url(assets/fontes/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf) format(truetype);
 }
 
@@ -29,15 +29,8 @@
 } */
 
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-html {box-sizing: border-box;}
-*, *:before, *:after {box-sizing: inherit;}
-
 body {
-    background-image: linear-gradient(#FFFFFF, #F0F1FF);
-    font-family: 'Plus-Jakarta-Sans';
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Plus-Jakarta', 'Plus Jakarta Sans', sans-serif;
 }

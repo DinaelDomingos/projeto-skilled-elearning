@@ -1,80 +1,85 @@
-.logo {
+.container {
+    max-width: 375px;
+    margin: auto;    
+    background-image: linear-gradient(#FFFFFF, #F0F1FF);
+    overflow: hidden;
+}
+
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90vw;
-    margin: 4% auto;
+    padding: 4.25% 4.25%;
+    width: 90%;
 }
 
-.logo img {
+.logo-header {
     width: 89px;
 }
 
-.logo button{
+.btn-header {
     padding: 10px 24px;
     background-color: var(--darkBlue);
     border-radius: 28px;
     border: 0;
-}
-
-.logo button:hover {
-    background-color: var(--lightPurple);
-}
-
-.logo button>a {
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
+    line-height: 28px;
 }
 
-main {
+.btn-header:hover {
+    background-color: var(--lightPurple);
+}
+
+/* main {
     display: flex;
     flex-direction: column;
     width: 90vw;
     margin: auto;
-}
+} */
 
-.principal {
+/* .principal {
     margin-top: 22px;
-}
+} */
 
-.principal h1 {
+/* .principal h1 {
     font-size: 2.5rem;
     font-weight: 800;
     color: var(--darkBlue);
-}
+} */
 
-.principal p {
+/* .principal p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--gray);
     margin: 26px auto 24px;
-}
+} */
 
-.principal button {
+/* .principal button {
     padding: 15px 38px;
     background-image: var(--gradiente1);
     border-radius: 28px;
     border: 0;
-}
+} */
 
-.principal button:hover {
+/* .principal button:hover {
     background-image: var(--gradiente1-hover);
-}
+} */
 
-.principal button a {
+/* .principal button a {
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
-}
+} */
 
-.principal img {
+/* .principal img {
     width: 343px;
-}
+} */
 
-.card h2 {
+/* .card h2 {
     padding: 24px 28px 32px;
     background-image: var(--gradiente1);
     border-radius: 10px;
@@ -83,38 +88,38 @@ main {
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 40px;
-}
+} */
 
-.card article {
+/* .card article {
     background-color: var(--white);
     margin-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
     position: relative;
-}
+} */
 
-.card img {
+/* .card img {
     position: absolute;
     top: -24px;
     left: 28px;
-}
+} */
 
-.card h3 {
+/* .card h3 {
     color: var(--darkBlue);
     font-size: 1.5rem;
     font-weight: 800;
     padding-left: 28px;
     padding-top: 56px;
-}
+} */
 
-.card p {
+/* .card p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--gray);
     padding: 16px 28px 24px;
-}
+} */
 
-.card a {
+/* .card a {
     display: inline-block;
     font-size: 1.15rem;
     font-weight: 700;
@@ -122,31 +127,31 @@ main {
     text-decoration: none;
     padding-left: 28px;
     padding-bottom: 32px;
-}
+} */
 
-footer {
+/* footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 36px 18px;
     margin: 20px auto 0;
     background-color: var(--darkBlue);
-}
+} */
 
-footer button {
+/* footer button {
     padding: 10px 24px;
     background-image: var(--gradiente2);
     border-radius: 28px;
     border: 0;
-}
+} */
 
-footer button:hover {
+/* footer button:hover {
     background-image: var(--gradiente2-hover);
-}
+} */
 
-footer button a {
+/* footer button a {
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
-}
+} */
