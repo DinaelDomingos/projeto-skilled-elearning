@@ -144,29 +144,30 @@
     padding-bottom: 32px;
 }
 
-/* footer {
+.rodape {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 36px 18px;
     margin: 20px auto 0;
     background-color: var(--darkBlue);
-} */
+}
 
-/* footer button {
+.rodape img {
+    width: 89px;
+}
+
+.btn-footer {
     padding: 10px 24px;
     background-image: var(--gradiente2);
     border-radius: 28px;
     border: 0;
-} */
-
-/* footer button:hover {
-    background-image: var(--gradiente2-hover);
-} */
-
-/* footer button a {
     color: var(--white);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
-} */
+}
+
+.btn-footer:hover {
+    background-image: var(--gradiente2-hover);
+}
