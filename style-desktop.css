@@ -1,90 +1,74 @@
-@media screen and (min-width: 1440px) {
-    .logo {
-        width: 78vw;
-    }
+@charset "UTF-8";
+    
+.container {
+    max-width: 1440px;
+}
 
-    .logo img {
-        width: 114px;
-    }
+.cabecalho {
+    width: 77%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
 
-    .logo button{
-        padding: 14px 32px;
-    }
+.logo-header {
+    width: 114px;
+}
 
-    .logo button>a {
-        font-size: 1.15rem;
-    }
+.btn-header {
+    padding: 14px 32px;
+    border: 0;
+    font-size: 1.125rem;
+}
 
-    main {
-        width: 78vw;
-    }
+.principal {
+    grid-template-columns: 50% 50%;
+    max-width: 77%;
+}
 
-    .principal header {
-        width: 475px;
-    }
+.principal-header {
+    margin: 0 auto 15.625rem;
+}    
 
-    .principal picture {
-        position: absolute;
-        top: -370px;
-        left: 600px;
-    }
+.principal-header h1 {
+    margin-top: 5.3125rem;
+    font-size: 3.5rem;
 
-    .principal img {
-        width: 1046px;
-    }
+}
 
-    .principal h1 {
-        font-size: 3.5rem;
-    }
+.principal-header p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 1.875rem 0 2.5rem 0;
+}
 
-    .principal p {
-        font-size: 1.15rem;
-        font-weight: 400;
-        color: var(--gray);
-        margin: 29px auto 40px;
-    }
+.btn-main {    
+    padding: 16px 38px;
+    border-radius: 28px;
+    border: 0;
+    font-size: 1.125rem;
+}
 
-    .principal button {
-        padding: 18px 32px;
-    }
+.card{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem 1.875rem;
+    max-width: 77%;
+}
 
-    .principal button a {
-        font-size: 1.15rem;
-    }
+.card h2 {
+    padding: 4rem 2rem;
+    font-size: 2rem;
+}
 
-    .card {
-        gap: 30px;
-    }
+.curso h3 {
+    font-size: 1.5rem;
+}
 
-    .card h2{
-        width: 350px;
-        padding-top: 64px;
-        font-size: 2rem;
-    }
+.curso p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
 
-    .card h3 {
-        color: var(--darkBlue);
-        font-size: 1.5rem;
-        font-weight: 800;
-        padding-left: 32px;
-        padding-top: 56px;
-    }
-
-    .card p {
-        font-size: 1.15rem;
-        padding: 24px 32px;
-    }
-    .card a {
-        padding-left: 32px;
-        padding-bottom: 40px;
-    }
-
-    .card article {
-        width: 350px;
-    }
-
-    footer {
-        padding: 32px 165px;
-    }
-
+.rodape {
+    padding: 3.625rem 10.3125rem;
+     margin: 6.25rem auto 0;
 }
