@@ -1,36 +1,30 @@
 @font-face {
-    font-family: 'Plus-Jakarta';
-    src: url(assets/fontes/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf) format(truetype);
+    font-family: 'Plus-Jakarta Sans';
+    src: url(assets/fontes/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root {
+    --background: lightgray;
     --darkBlue: #13183F;
     --gray: #83869A;
     --lightPurple: #666CA3;
     --pink: #F74780;
     --lightPink: #FFA7C3;
     --white: #FFFFFF;
+
     --gradiente1: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     --gradiente1-hover:  linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     --gradiente2: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     --gradiente2-hover: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-
-
 }
 
-
-/* .plus-jakarta-sans-<uniquifier> {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
-    box-sizing: border-box;
-    background-color: lightgray;
-    font-family: 'Plus-Jakarta', 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--background);
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
