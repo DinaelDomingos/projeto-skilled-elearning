@@ -4,10 +4,6 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge"/>
 </p>
 
-Quinto desafio do site Frontend Mentor
-
-# Skilled e-learning Landing Page
-
 ![Preview do Design](./preview.jpg)
 
 ## Descrição
