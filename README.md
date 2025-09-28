@@ -1,10 +1,10 @@
 # Projeto: Skilled e-learning
 
-Esta é uma solução para o [desafio Skilled e-learning landing no Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Os desafios do Frontend Mentor ajudam você a aprimorar suas habilidades de codificação por meio da criação de projetos realistas.
-
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge"/>
 </p>
+
+Esta é uma solução para o [desafio Skilled e-learning landing no Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Os desafios do Frontend Mentor ajudam você a aprimorar suas habilidades de codificação por meio da criação de projetos realistas.
 
 ![Preview do Design](./Screenshot%20-%20Desktop%20-%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
 
