@@ -26,8 +26,8 @@ Landing page responsiva para cursos online, baseada no desafio premium do Fronte
 
 ## Demonstração
 
-- [Link do site ao vivo](#) <!-- Adicione o link de deploy aqui -->
-- [Repositório no GitHub](#) <!-- Adicione o link do repositório aqui -->
+- [Link do site ao vivo](https://dinaeldomingos.github.io/projeto-skilled-elearning/)
+- [Repositório no GitHub](https://github.com/DinaelDomingos/projeto-skilled-elearning)
 
 ## Funcionalidades
 
