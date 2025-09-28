@@ -4,7 +4,13 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=RED&style=for-the-badge"/>
 </p>
 
-![Preview do Design](./preview.jpg)
+![Preview do Design](./Screenshot%20-%20Desktop%20-%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
+
+## Screenshot
+
+![Tablet](./Screenshot%20-%20Tablet%20-%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
+
+![Mobile](./Screenshot%20-%20Mobile%20-%20Frontend%20Mentor%20Skilled%20e-learning%20landing%20page.png)
 
 ## Descrição
 
