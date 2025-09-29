@@ -71,9 +71,8 @@ projeto-skilled-elearning/
 ## Deploy
 
 Recomenda-se o uso de:
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://dinaeldomingos.github.io/projeto-skilled-elearning/)
+- [Vercel](https://projeto-skilled-elearning-lk0uoxhqd-dinaeldomingos-projects.vercel.app)
 
 ## Créditos
 
